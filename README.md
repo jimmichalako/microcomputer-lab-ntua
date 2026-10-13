@@ -2,8 +2,6 @@
 
 This repository showcases the laboratory exercises, peripheral drivers, and embedded project implementations I completed during the Microcomputer Laboratory course at the National Technical University of Athens (NTUA). Through this coursework, I developed practical expertise in bare-metal embedded systems programming on the Microchip AVR ATmega328PB microcontroller using the custom `ntuAboard_G1` development platform. I gained hands-on experience developing low-level AVR Assembly and embedded C routines, handling hardware timers and external interrupts, driving analog sensors through ADC conversion, implementing serial bus communication protocols (TWI/I²C, 1-Wire, USART), and engineering an end-to-end IoT patient monitoring system with Wi-Fi telemetry.
 
----
-
 ## Laboratory Exercises
 
 ### Lab 1: AVR Assembly Fundamentals, Arithmetic & Logic Operations
@@ -76,8 +74,6 @@ This repository showcases the laboratory exercises, peripheral drivers, and embe
   * **Ex 2 (Multi-Sensor Telemetry & Emergency Status Logic):** Acquired patient body temperature via the DS18B20 (1-Wire) and physiological pressure via `POT0` (ADC calibrated to $0$–$20\text{ cm H}_2\text{O}$), scanned the matrix keypad to handle emergency `"NURSE CALL"` alerts, and monitored abnormal vitals (`CHECK PRESSURE`, `CHECK TEMP`).
   * **Ex 3 (JSON Payload Formatting & Cloud Transmission):** Assembled structured JSON telemetry packets containing temperature, pressure, and operational status, transmitted data payloads via the ESP8266 over Wi-Fi to a remote HTTP server (`http://192.168.1.250:5000/data`), and confirmed execution via incoming HTTP `200 OK` responses.
 * **Tech Stack:** Embedded C, ATmega328PB, ESP8266 Wi-Fi Module, USART, 1-Wire, TWI/I²C, HTTP/JSON Telemetry.
-
----
 
 ## Technologies Used
 
