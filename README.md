@@ -1,6 +1,6 @@
-# NTUA ECE Microprocessors Laboratory Course
+# NTUA ECE Microcomputer Laboratory Course
 
-This repository showcases the laboratory exercises, peripheral drivers, and embedded project implementations I completed during the Microprocessors Laboratory course at the National Technical University of Athens (NTUA). Through this coursework, I developed practical expertise in bare-metal embedded systems programming on the Microchip AVR ATmega328PB microcontroller using the custom `ntuAboard_G1` development platform. I gained hands-on experience developing low-level AVR Assembly and embedded C routines, handling hardware timers and external interrupts, driving analog sensors through ADC conversion, implementing serial bus communication protocols (TWI/I²C, 1-Wire, USART), and engineering an end-to-end IoT patient monitoring system with Wi-Fi telemetry.
+This repository showcases the laboratory exercises, peripheral drivers, and embedded project implementations I completed during the Microcomputer Laboratory course at the National Technical University of Athens (NTUA). Through this coursework, I developed practical expertise in bare-metal embedded systems programming on the Microchip AVR ATmega328PB microcontroller using the custom `ntuAboard_G1` development platform. I gained hands-on experience developing low-level AVR Assembly and embedded C routines, handling hardware timers and external interrupts, driving analog sensors through ADC conversion, implementing serial bus communication protocols (TWI/I²C, 1-Wire, USART), and engineering an end-to-end IoT patient monitoring system with Wi-Fi telemetry.
 
 ---
 
